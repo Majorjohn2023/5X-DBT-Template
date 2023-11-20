@@ -1,0 +1,58 @@
+schemaVersion: 3
+meta:
+  sourceVersionId: 28833351-7cba-44fc-bc97-fe3cdfb03c1d # DO NOT CHANGE - Hex uses this to match up project versions when reimporting the file
+  description: ""
+  projectId: 24370178-698b-430b-b462-d562fdd9e775 # DO NOT CHANGE - Unique ID of the project from which this file was generated
+  title: Untitled project
+  timezone: null
+  appTheme: SYS_PREF
+  codeLanguage: PYTHON
+  status: null
+  categories: []
+  castDecimalsDefault: true
+  logicQueryCacheTimeout: null
+  publishedQueryCacheTimeout: null
+projectAssets:
+  dataConnections: []
+  envVars: []
+  secrets: []
+sharedAssets:
+  secrets: []
+  vcsPackages: []
+  dataConnections:
+    - dataConnectionId: bb610635-5cf6-40aa-884a-5d51dd594af4 # [Demo] Hex Public Data (snowflake)
+  externalFileIntegrations: []
+cells:
+  - cellType: SQL
+    cellId: e656a188-23c4-42d0-9544-cfadb20281ac # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        SELECT* from snowflake_sample_data.tpch_sf1.customer
+        limit 10
+      dataFrameCell: false
+      dataConnectionId: bb610635-5cf6-40aa-884a-5d51dd594af4
+      resultVariableName: dataframe
+      useRichDisplay: false
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig: null
+appLayout:
+  visibleMetadataFields:
+    - NAME
+    - DESCRIPTION
+    - AUTHOR
+    - LAST_EDITED
+    - LAST_RUN
+    - CATEGORIES
+    - STATUS
+    - TABLE_OF_CONTENTS
+  fullWidth: false
+  tabs:
+    - name: Tab 1
+      rows: []
+sharedFilters: []
