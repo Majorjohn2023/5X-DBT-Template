@@ -67,3 +67,27 @@ packages:
     version: 0.4.0
   - package: teampay/dbt_teampay
     version: 0.4.0
+=======
+  - package: fishtown-analytics/dbt_utils
+    version: 0.8.0
+  - package: calogica/dbt_expectations
+    version: 0.4.2
+  - package: fishtown-analytics/dbt_external_tables
+    version: 0.6.0
+  - package: dbt-labs/dbt_audit_helper
+    version: 0.4.0
+  - package: fishtown-analytics/codegen
+    version: 0.4.0
+  - package: tailsdotcom/dbt_artifacts
+    version: 0.6.0
+  - package: fishtown-analytics/audit_helper
+    version: 0.5.0
+  - package: dbt-labs/logging
+    version: 0.3.0
+  - package: fishtown-analytics/redshift
+    version: 0.5.0
+  - package: fishtown-analytics/snowflake
+    version: 0.5.0
+  - package: fishtown-analytics/bigquery
+    version: 0.5.0
+>>>>>>> branch 'Newbranch' of git@github.com:Majorjohn2023/5X-DBT-Template.git
