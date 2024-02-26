@@ -9,3 +9,4 @@ SELECT * FROM raw_data.orders
   WHERE order_date > (SELECT MAX(order_date) FROM {{ this }})
 
 {% endif %}
+-- sdczczczdfsdasdc
